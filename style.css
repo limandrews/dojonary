@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* this is my navigation bar */
+header{
+    background-color: gray;
+    color: black;
+    padding: 15px;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.loginbut{
+    box-shadow: 2px 2px black;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+
+.likesbut{
+    box-shadow: 2px 2px black;
+    background-color: yellow;
+    padding: 2px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 1rem;
+}
+
+.maincontainer{
+    /* background-color: wheat; */
+    width: 928px;
+    height: 900px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.leftcontainer{
+    width: 400px;
+    height: 400px;
+    /* background-color: skyblue; */
+    flex: 2;
+    
+}
+
+.rightcontainer{
+    width: 400px;
+    /* height: 200px; */
+    /* background-color: purple; */
+    flex: 1;
+    text-align: center;
+    border: 2px solid black;
+    padding: 25px;
+
+}
+
+.ninjabox{
+    padding: 25px;
+    /* margin: 20px; */
+    margin-bottom: 15px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.practicioner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.programmer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.adddef{
+    background-color: green;
+    box-shadow: black;
+    padding: 2px;
+}
+
+.dojodef{
+    text-align: start;
+}
+

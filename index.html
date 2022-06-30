@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar flex">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button onclick="login(this)" class="loginbut">Login</button>
+    </header>
+    <div class="maincontainer flex">
+        <div class="leftcontainer">
+            <div class="ninjabox">
+                <div>
+                    <h1>ninja</h1>
+                    <h2><em>noun</em></h2>
+                    <h3>Plural: <em>ninjas</em></h3>
+                    <button onclick="alert('Ninja was liked')" class="likesbut">Likes</button>
+                </div>
+                <div class="practicioner">
+                    <p>A practioner skilled in the <a href="">Japanese</a> art of ninjutsu</p>
+                </div>
+            </div>
+            <div class="ninjabox">
+                <div>
+                    <h1>ninja</h1>
+                    <h2><em>noun</em></h2>
+                    <h3>Plural: <em>ninjas</em></h3>
+                    <button onclick="alert('Ninja was liked')" class="likesbut">Likes</button>
+                </div>
+                <div class="programmer">
+                    <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="rightcontainer">
+            <h2 class="dojodef">Dojonary is defined by <strong>YOU</strong></h2>
+            <button onclick="disappear(this)" class="adddef">Add Definition</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
